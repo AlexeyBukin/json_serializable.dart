@@ -232,7 +232,7 @@ mixin DecodeHelper implements HelperCore {
 
         value = deserialize(
           readValueFunc == null
-              ? 'json[$jsonKeyName]'
+              ? 'jsonTEST[$jsonKeyName]'
               : '$readValueFunc(json, $jsonKeyName)',
         );
       }
